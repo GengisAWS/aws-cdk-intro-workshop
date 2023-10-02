@@ -8,7 +8,7 @@ Now we are ready to define the basics of the pipeline.
 
 Return to the file `lib/pipeline-stack.ts` and edit as follows:
 
-{{<highlight ts "hl_lines=4 15-31">}}
+{{<highlight ts "hl_lines=4 11 15-31">}}
 import * as cdk from 'aws-cdk-lib';
 import * as codecommit from 'aws-cdk-lib/aws-codecommit';
 import { Construct } from 'constructs';
